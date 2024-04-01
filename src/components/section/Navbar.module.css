@@ -9,6 +9,11 @@
     color:black;
 }
 
+.navbar a:hover{
+    transition-duration: 0.2s;
+    transform: translateY(-5px);
+}
+
 .navbar h1 {
     margin: 20px;
 }

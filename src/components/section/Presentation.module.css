@@ -9,6 +9,17 @@
     width: 40vw;
 }
 
+.presentation img {
+    border-radius: 55px;
+    margin: auto;
+}
+
+.foto {
+    width: 40vw;
+    margin: auto;
+    padding-left: 30px;
+}
+
 .presentation h1 {
     font-weight: 900;
     font-size: 40px;
@@ -36,6 +47,17 @@
 }
 
 @media only screen and (max-width: 600px) {
+    .presentation {
+        display: flex;
+        flex-direction: column-reverse;
+        margin-left: 20%;
+        margin-bottom: 70px;
+    }
+
+    .foto {
+        width: 100vw;
+        margin: auto;
+    }
 
     .presentation p {
         width: 70vw;
