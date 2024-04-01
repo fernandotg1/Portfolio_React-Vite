@@ -56,7 +56,7 @@
 
     .foto {
         width: 100vw;
-        margin: auto;
+        padding-left: 0px;
     }
 
     .presentation p {
