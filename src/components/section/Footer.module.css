@@ -10,3 +10,11 @@
 .footer a{
     color:#21243D;
 }
+
+.footer p {
+    background-color: rgb(26, 26, 26);
+    color: white;
+    border-radius: 5px;
+    margin: 0px;
+    padding: 10px;
+}
