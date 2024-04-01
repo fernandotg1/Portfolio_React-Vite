@@ -1,0 +1,46 @@
+.article{
+  background-color: #edf7f9; 
+  padding-top: 10px;
+  padding-bottom: 20px;
+  display: grid;
+  grid-template-columns: 40% 40%;
+  justify-content: center;
+}
+
+.title{
+  background-color: #edf7f9; 
+  width:80%;
+  margin: auto;
+  padding: 20px;
+}
+
+.title h1{
+  padding-left: 12%;
+  font-weight: normal;
+  font-size: 20px;
+  padding-top: 15px;
+  margin-bottom: 0;
+  
+}
+
+.title button {
+  margin-left: 12%;
+  background-color: #21243D;
+  color: aliceblue;
+  font-size: 12px;
+  border: none;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+.title button:hover{
+  cursor: pointer;
+  background-color: #3d0b0b;
+}
+
+@media only screen and (max-width: 600px) {
+  .article{
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+}

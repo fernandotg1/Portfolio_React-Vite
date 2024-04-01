@@ -1,0 +1,35 @@
+.projectcard{
+    display: flex;
+    flex-direction: row;
+}
+
+.projectcard img{
+    border-radius: 10px;
+    max-width: 20vw;
+    border: 1px solid;
+    border-color: rgb(228, 225, 225);
+    margin-right: 30px;
+    
+}
+
+.projectcard h1{
+    margin: auto;
+
+}
+
+.projectcard img:hover{
+    transform: scale(115%);
+    transition-duration: 1s;
+}
+
+@media only screen and (max-width: 600px) {
+    .projectcard{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .projectcard img{        
+        max-width: 80%; 
+        margin: auto;       
+    }
+  }

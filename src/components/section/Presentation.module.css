@@ -1,0 +1,43 @@
+.presentation {
+    display: flex;
+    flex-direction: row;
+    margin-left: 20%;
+    margin-bottom: 70px;
+}
+
+.presentation p {
+    width: 40vw;
+}
+
+.presentation h1 {
+    font-weight: 900;
+    font-size: 40px;
+}
+
+.presentation a {
+    width: 180px;
+}
+
+.presentation button {
+    width: 180px;
+    background-color: #FF6464;
+    color: aliceblue;
+    font-size: 18px;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.presentation button:hover {
+    transition-duration: 1s;
+    transform: scale(110%);
+    cursor: pointer;
+    background-color: #3d0b0b;
+}
+
+@media only screen and (max-width: 600px) {
+
+    .presentation p {
+        width: 70vw;
+    }
+}
