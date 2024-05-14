@@ -1,7 +1,9 @@
 .presentation {
     display: flex;
     flex-direction: row;
-    margin-left: 20%;
+    
+    margin-left: 20vw;
+    margin-top: 2%;
     margin-bottom: 70px;
 }
 
@@ -50,13 +52,12 @@
     .presentation {
         display: flex;
         flex-direction: column-reverse;
-        margin-left: 20%;
-        margin-bottom: 70px;
+
     }
 
     .foto {
-        width: 100vw;
         padding-left: 0px;
+        margin-left: 0px;
     }
 
     .presentation p {
